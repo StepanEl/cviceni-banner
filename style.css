@@ -28,6 +28,9 @@ body {
   background-color: #2ecc71;
 }
 
+@media(max-width: 800px) {
+  .banner {display: none;}
+}
 /*
 Nastavte CSS pro třídu .banner tak, aby:
 - ve výchozím stavu (=na mobilu) bude banner skrytý
